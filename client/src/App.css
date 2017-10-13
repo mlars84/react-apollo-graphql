@@ -1,5 +1,10 @@
+body {
+  background-color: #112c47;
+}
+
 .App {
   text-align: center;
+  background-color: #112c47;
 }
 
 .App-logo {
@@ -10,7 +15,7 @@
   background-color: #222;
   height: 150px;
   padding: 20px;
-  color: white;
+  color: #7ec44d;
 }
 
 .App-intro {
@@ -22,9 +27,11 @@
 }
 
 .Item-list li {
-  border: 1px dotted gray;
+  border: 1px solid black;
   width: 20%;
   height: 3em;  
   margin: auto;
   text-align: left;
+  background-color: #7ec44d;
+  padding: 1em 1em 1em 1em;
 }
