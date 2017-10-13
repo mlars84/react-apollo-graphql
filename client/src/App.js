@@ -1,6 +1,13 @@
 import React, { Component } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import {
+  ApolloClient,
+  gql,
+  graphql,
+  ApolloProvider,
+} from 'react-apollo';
+const client = new ApolloClient();
 
 const ChannelsList = () =>
     (<ul className="Item-list">
