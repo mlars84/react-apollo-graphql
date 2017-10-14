@@ -28,7 +28,7 @@ const ChannelsList = ({ data: {loading, error, channels }}) => {
     return <p>{error.message}</p>;
   }
 
-  return <ul>
+  return <ul className="Item-list">
     { channels.map( ch => <li key={ch.id}>{ch.name}</li> ) }
   </ul>;
 };
