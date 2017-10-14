@@ -5,8 +5,8 @@
 - React, Apollo, GraphQL, Babel.
 
 ## Getting Started
-- $ yarn install
-- $ yarn start
+- $ npm install
+- $ npm start
 
 ## Acknowledgments
 - [Jonas Helfer](https://github.com/helfer)
